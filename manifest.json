@@ -1,0 +1,18 @@
+{
+   "content_scripts": [ {
+      "js": [ "jquery.js", "PP.js" ],
+      "matches": [ "http://www.ncbi.nlm.nih.gov/*", "http://*.pubpeer.com/*" ],
+      "run_at": "document_idle"
+   } ],
+   "description": "Show comments on PubMed",
+   "icons": {
+      "128": "PubPeer128.png",
+      "16": "PubPeer19.png",
+      "48": "PubPeer48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCOMob4caANuOSHJQFlO0CS1AfjtcMdhPu+CkuXp18h1EEOxhQYn77IDKBtxvWcTpc6vpYA9I01HfvgKCnR9qGr6eaoRBOiEKOaH4CvZE+2F61xb7zDTbMt9RBKgc8j+lBaeEZDYsNQJmsrtgIQrHA0TdRUOVXFEeig+BzUYlofEQIDAQAB",
+   "manifest_version": 2,
+   "name": "PubPeer",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.0.3"
+}
