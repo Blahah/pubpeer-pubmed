@@ -3,7 +3,7 @@ pubpeer-pubmed
 
 A Chrome plugin that integrates PubPeer comment discovery with PubMed.
 
-Originaly developed by the PubPeer team (with whom I am not associated), open sourced here to encourage community participation and ensure its future.
+Originaly developed by the PubPeer team (with whom I am not associated), open sourced here with their kind permission to encourage community participation and ensure its future.
 
 ### Acknowledgements
 
